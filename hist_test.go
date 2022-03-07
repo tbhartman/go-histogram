@@ -1,11 +1,12 @@
 package histogram_test
 
 import (
-	"constraints"
 	"fmt"
 	"os"
 	"strings"
 	"testing"
+
+	"golang.org/x/exp/constraints"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/tbhartman/go-histogram"

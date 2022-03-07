@@ -1,13 +1,14 @@
 package histogram
 
 import (
-	"constraints"
 	"fmt"
 	"io"
 	"math"
 	"sort"
 	"strconv"
 	"strings"
+
+	"golang.org/x/exp/constraints"
 )
 
 type number interface {

@@ -1,10 +1,11 @@
 package histogram
 
 import (
-	"constraints"
 	"fmt"
 	"math"
 	"strings"
+
+	"golang.org/x/exp/constraints"
 )
 
 var sizeStr = []string{
